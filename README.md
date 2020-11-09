@@ -16,7 +16,7 @@ The code is contained in the following jupyter notebooks in [src](https://github
 
 
 ## Usage
-The code allows for simulations to be run with varying conditions, in order to gain insights and answer important questions about the virus. For example, we can use the simulation to model the effects of social distancing, or to evaluate different policy decisions. The following plots show how shutting down mass transit one week earlier or one week later would have affected transmission over time:
+The code allows for simulations to be run with varying conditions, in order to gain insights and answer important questions about the virus. For example, we can use the simulation to model the effects of social distancing, or to evaluate different policy decisions. The following plots show how shutting down mass transit one week earlier or one week later would have affected transmissions over time:
 
 ![Transit Decline Timing](https://github.com/rb2540/covid-simulation/blob/main/figures/TransitTimingDeclinesPlots.jpg)
 
