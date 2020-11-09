@@ -1,7 +1,9 @@
 # covid-simulation
-This project simulates the spread of COVID-19 in New York City with Python. The code was optimized to run many simulations quickly by vectorizing all operations in Numpy, and utilizing Cython and multiprocessing. In order to simulate the virus' spread in NYC, an OD-flow matrix was built from transit data that models the typical mobility patterns of New Yorkers. 
+This code simulates the spread of COVID-19 in New York City with Python. An SIR model is used to track the number of susceptible, infected, and recovered individuals over time. In order to simulate the spread of the virus within NYC specifically, an OD-flow matrix was built using real transit data, which approximates the movement of individuals throughout the city on a typical day. Different conditions can be applied to observe how mobility patterns and social distancing affect transmission rates. We can also use the simulation to determine the affects of different policy decisions. Several examples of such applications are provided in [Experiments.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/Experiments.ipynb). 
 
-The code is contained in the following notebooks in the src folder:
+The code was designed to allow for quickly running many simulations in parallel. This was achieved by vectorizing all operations in Numpy and Cython, and utilizing multiprocessing. 
+
+The code is contained in the following notebooks in [/src](https://github.com/rb2540/covid-simulation/tree/main/src):
 * get_nyc_od_matrix.ipynb contains the code to generate the OD-flow matrix
 * Cython_Optimizations.ipynb details how the code was optimized with cython and multiprocessing
 * Experiments.ipynb details the applications of the simulation model, and tests the effects that different policy decisions could have had on the transmission of the virus.
