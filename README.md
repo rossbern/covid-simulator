@@ -7,14 +7,14 @@ The file [environment.yml](https://github.com/rb2540/covid-simulation/blob/main/
 
 
 ## Contents
-The code is contained in the following notebooks in the [src](https://github.com/rb2540/covid-simulation/tree/main/src) folder:
-* [get_nyc_od_matrix.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/get_nyc_od_matrix.ipynb) contains the code to generate the OD-flow matrix
+The code is contained in the following jupyter notebooks in [src](https://github.com/rb2540/covid-simulation/tree/main/src):
+* [get_nyc_od_matrix.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/get_nyc_od_matrix.ipynb) generates the OD-flow matrix
 * [Cython_Optimizations.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/Cython_Optimizations.ipynb) details how the code was optimized with cython and multiprocessing
 * [Experiments.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/Experiments.ipynb) provides several examples of how the simulation can be used
 
 
 ## Usage
-Simulations can be run with different conditions in order to gain important insights about the virus. For example, we can use the simulation to model the effects of social distancing, or to evaluate different policy decisions. The following plots show how shutting down mass transit one week earlier or later would have affected transmission over time:
+The code allows for simulations to be run with varying conditions, in order to gain insights and answer important questions about the virus. For example, we can use the simulation to model the effects of social distancing, or to evaluate different policy decisions. The following plots show how shutting down mass transit one week earlier or one week later would have affected transmission over time:
 
 ![Transit Decline Timing](https://github.com/rb2540/covid-simulation/blob/main/figures/TransitTimingDeclinesPlots.jpg)
 
