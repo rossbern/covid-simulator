@@ -3,7 +3,7 @@ This code simulates the spread of COVID-19 in New York City with Python. An SIR 
 
 The code was designed to allow for quickly running many simulations in parallel. This was achieved by vectorizing all operations in Numpy and Cython, and utilizing multiprocessing. 
 
-The code is contained in the following notebooks in [/src](https://github.com/rb2540/covid-simulation/tree/main/src):
-* get_nyc_od_matrix.ipynb contains the code to generate the OD-flow matrix
-* Cython_Optimizations.ipynb details how the code was optimized with cython and multiprocessing
-* Experiments.ipynb details the applications of the simulation model, and tests the effects that different policy decisions could have had on the transmission of the virus.
+The code is contained in the following notebooks in the [src](https://github.com/rb2540/covid-simulation/tree/main/src) folder:
+* [get_nyc_od_matrix.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/get_nyc_od_matrix.ipynb) contains the code to generate the OD-flow matrix
+* [Cython_Optimizations.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/Cython_Optimizations.ipynb) details how the code was optimized with cython and multiprocessing
+* [Experiments.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/Experiments.ipynb) shows several ways we can utilize the simulation to answer important questions
