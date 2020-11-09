@@ -3,9 +3,10 @@ This code simulates the spread of COVID-19 in New York City with Python. An SIR 
 
 ## Usage
 Simulations can be run with different conditions in order to gain important insights. For example, we can use the simulation to model the effects of social distancing, or to evaluate different policy decisions. The following plots show how shutting down mass transit one week earlier or later would have affected transmission over time:
+
 ![Transit Decline Timing](https://github.com/rb2540/covid-simulation/blob/main/figures/TransitTimingDeclinesPlots.jpg)
 
-Several other exampels are provided in [Experiments.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/Experiments.ipynb). 
+Several other examples are provided in [Experiments.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/Experiments.ipynb). 
 
 The code is contained in the following notebooks in the [src](https://github.com/rb2540/covid-simulation/tree/main/src) folder:
 * [get_nyc_od_matrix.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/get_nyc_od_matrix.ipynb) contains the code to generate the OD-flow matrix
