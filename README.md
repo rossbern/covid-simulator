@@ -5,7 +5,7 @@ The simulation is based on a variation of the SIR model, which tracks the number
 
 
 ## Requirements
-The file [environment.yml](https://github.com/rb2540/covid-simulation/blob/main/src/environment.yml) is provided, which can be imported to create the proper conda environment.
+This project was developed in Python 3. The [environment.yml](https://github.com/rb2540/covid-simulation/blob/main/src/environment.yml) file can be used to create a conda environment with all the necessary packages.
 
 
 ## Contents
