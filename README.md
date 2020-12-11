@@ -22,7 +22,3 @@ The code allows for simulations to be run with varying conditions, in order to g
 
 Several other examples are provided in [Experiments.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/Experiments.ipynb). 
 
-
-## Report
-This [report]() accompanied the project as a part of
-
