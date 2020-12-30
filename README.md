@@ -7,7 +7,7 @@ MTA transit data was used to build an origin-destination matrix, which approxima
 
 
 ## Requirements
-This project was developed in Python 3. The [environment.yml](https://github.com/rb2540/covid-simulation/blob/main/src/environment.yml) file can be used to create a conda environment with all the necessary packages.
+This project was developed in Python 3. The [environment.yml](https://github.com/rb2540/covid-simulation/blob/main/src/environment.yml) file creates a conda environment called covidsim with all the necessary packages.
 
 
 ## Contents
