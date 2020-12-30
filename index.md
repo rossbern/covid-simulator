@@ -20,7 +20,7 @@ The code is contained in the following jupyter notebooks in [src](https://github
 ## Example
 The simulation was used to generate the following plots, which show how shutting down mass transit either one week earlier or one week later would have affected transmissions over time:
 
-![Transit Decline Timing](https://github.com/rb2540/covid-simulation/blob/main/figures/TransitTimingDeclinesPlots.jpg)
+![Transit Decline Timing](https://github.com/rb2540/covid-simulation/blob/gh-pages/figures/TransitTimingDeclinesPlots.jpg)
 
 Shutting down one weak earlier is estimated to have reduced transmissions by about 10%.
 
