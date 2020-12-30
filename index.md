@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# covid-simulation
+This is a model designed to accurately simulate the spread of COVID-19 in New York City by utilizing real transit data along with an SIR epidemiological model.  The code uses Cython and multiprocessing for fast computation.
 
-You can use the [editor on GitHub](https://github.com/rossbern/covid-simulator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This was developed in April 2020, shortly after cases began to spike in NYC, and it allowed for the early estimation of transmission rates amidst a lack of reliable data.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+MTA transit data was used to build an origin-destination matrix, which approximates the movement of individuals throughout the city on a typical day. The incorporation of this matrix provides an additional variable that controls mobility patterns over time, and can be adjusted to simulate effects of policy decisions or social distancing. 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Requirements
+This project was developed in Python 3. The [environment.yml](https://github.com/rb2540/covid-simulation/blob/main/src/environment.yml) file can be used to create a conda environment with all the necessary packages.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Contents
+The code is contained in the following jupyter notebooks in [src](https://github.com/rb2540/covid-simulation/tree/main/src):
+* [get_nyc_od_matrix.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/get_nyc_od_matrix.ipynb) generates the origin-destination matrix
+* [Cython_Optimizations.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/Cython_Optimizations.ipynb) details how the code was optimized with cython and multiprocessing
+* [Experiments.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/Experiments.ipynb) provides several examples of how the simulation can be used
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Example
+The simulation was used to generate the following plots, which show how shutting down mass transit either one week earlier or one week later would have affected transmissions over time:
 
-**Bold** and _Italic_ and `Code` text
+![Transit Decline Timing](https://github.com/rb2540/covid-simulation/blob/main/figures/TransitTimingDeclinesPlots.jpg)
 
-[Link](url) and ![Image](src)
-```
+Shutting down one weak earlier is estimated to have reduced transmissions by about 10%.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Several other examples are provided in [Experiments.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/Experiments.ipynb). 
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rossbern/covid-simulator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
