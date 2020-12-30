@@ -22,6 +22,10 @@ The simulation was used to generate the following plots, which show how shutting
 
 ![Transit Decline Timing](https://github.com/rb2540/covid-simulation/blob/gh-pages/figures/TransitTimingDeclinesPlots.jpg)
 
+<p align="left">
+    <img src="figures/TransitTimingDeclinesPlots.jpg" width="600">
+</p>
+
 Shutting down one weak earlier is estimated to have reduced transmissions by about 10%.
 
 Several other examples are provided in [Experiments.ipynb](https://github.com/rb2540/covid-simulation/blob/main/src/Experiments.ipynb). 
