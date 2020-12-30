@@ -1,4 +1,9 @@
 # covid-simulation
+
+<p align="center">
+    <img src="images/banner.png" width="1000">
+</p>
+
 This is a model designed to accurately simulate the spread of COVID-19 in New York City by utilizing real transit data along with an SIR epidemiological model.  The code uses Cython and multiprocessing for fast computation.
 
 This was developed in April 2020, shortly after cases began to spike in NYC, and it allowed for the early estimation of transmission rates amidst a lack of reliable data.
